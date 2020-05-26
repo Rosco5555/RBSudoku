@@ -132,7 +132,6 @@ def main(board):
 
                 #If the user presses enter they are trying to enter a value
                 if event.key == K_RETURN:
-                    print("Pressed")
                     cube.enterPressed = True
 
 
@@ -277,22 +276,5 @@ def menu():
 
       #Update
       pygame.display.update()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 menu()
